@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nightmare Before Christmas RPG!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+
+
+</head>
+<body>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+	<audio id="click" src="assets/images/card.wav"></audio>
+	<audio id="kick" src="assets/images/attack.wav"></audio>
+	<audio id="halloween" src="assets/images/halloween.mp3"></audio>
+	<audio id="jackWin" src="assets/images/jack.mp3"></audio>
+	<audio id="oogieWin" src="assets/images/oogie.mp3"></audio>
+	<audio id="lockWin" src="assets/images/lock.mp3"></audio>
+	<audio id="docWin" src="assets/images/doctor.mp3"></audio>
+	<audio id="lose" src="assets/images/poorJack.mp3"></audio>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="text-right">The Nightmare Before Christmas RPG.</h1>
+				<h2 class="text-right">1. Choose a character</h2>
+				<h2 class="text-right">2. Choose an enemey</h2>
+				<h2 class="text-right">3. Fight!!</h2>
+				<h2>Your Character</h2>
+				
+				<div id="jack" class="pull-left green-border img-width background-white padding">
+					<p id="ch1Name" class="text-center">Jack Skelington</p>
+					<img id="character1" class="img-responsive img-thumbnail img-full" src="assets/images/jack.jpg">
+					<p id="ch1Hp" class="text-center"> HP: 140</p>
+				</div>
+				
+				<div id="oogie" class=" pull-left green-border img-width background-white padding">
+					<p id="ch2Name" class="text-center">Oogie Boogie</p>
+					<img id="character2" class="img-responsive img-thumbnail img-full" src="assets/images/oogie.jpg">
+					<p id="ch2Hp" class="text-center"> HP: 165</p>
+				</div>
+
+				<div id="lock" class=" pull-left green-border img-width background-white padding">
+					<p id="ch3Name" class="text-center">Lock, Shock, Barrel</p>
+					<img id="character3" class="img-responsive img-thumbnail img-full" src="assets/images/lock.jpg">
+					<p id="ch3Hp" class="text-center"> HP: 130</p>
+				</div>
+
+				<div id="doctor" class=" pull-left green-border img-width background-white padding">
+					<p id="ch4Name" class="text-center">Dr. Finkelstein</p>
+					<img id="character4" class="img-responsive img-thumbnail img-full" src="assets/images/doctor.jpg">
+					<p id="ch4Hp" class="text-center"> HP: 130</p>
+				</div>
+
+				<div id="message" class="pull-left">
+					<p id="attacker"></p>
+					<p id="counterAttacker"></p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Fight Section</h2>
+				<button type="button" class="btn btn-danger btn-lg">Attack!</button>
+				<button type="button" class="btn btn-default btn-lg">Reset</button>
+				<button type="button" class="stop btn btn-lg">Stop Music</button>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Defender</h2>
+
+				<div id="def" class="green-border img-width hidden background-black padding">
+					<p id="defName" class="text-center"></p>
+					<img id="defender" class="img-responsive img-thumbnail img-full" src="">
+					<p id="defHp" class="text-center"></p>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2>Enemies Available to Attack</h2>
+				
+				<div id="en1" class="pull-left black-border background-red img-width hidden padding">
+					<p id="en1Name" class="text-center"></p>
+					<img id="enemie1" class="img-responsive img-thumbnail img-full" src="">
+					<p id="en1Hp" class="text-center"></p>
+				</div>
+
+				<div id="en2" class="pull-left black-border background-red img-width hidden padding">
+					<p id="en2Name" class="text-center"></p>
+					<img id="enemie2" class="img-responsive img-thumbnail img-full" src="">
+					<p id="en2Hp" class="text-center"></p>
+				</div>
+
+				<div id="en3" class="pull-left black-border background-red img-width hidden padding">
+					<p id="en3Name" class="text-center"></p>
+					<img id="enemie3"  class="img-responsive img-thumbnail img-full" src="">
+					<p id="en3Hp" class="text-center" ></p>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+
+	
+
+</body>
+</html>
