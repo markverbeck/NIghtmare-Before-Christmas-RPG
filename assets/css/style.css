@@ -1,0 +1,47 @@
+.img-width{
+	width: 14%;
+}
+.green-border{
+	border: solid #009438 2px;
+}
+.img-full{
+	width: 100%
+}
+.background-white{
+	background-color: white;
+	margin-right: 3%;
+}
+.background-red{
+	background-color: red;
+	margin-right: 3%;
+}
+
+.background-black{
+	background-color: black;
+	color:white;
+	margin-right: 3%;
+}
+
+
+.black-border{
+	border: solid black 2px;
+}
+
+body{
+	background-image: url(background.jpg);
+	background-size: auto;
+
+}
+h1, h2, #attacker, #counterAttacker{
+	font-family: 'Berkshire Swash', cursive;
+	color:#ffec00;
+	text-shadow: 2px 2px #ffa700;
+}
+
+.padding{
+	padding: 1%;
+}
+
+#attacker, #counterAttacker{
+	font-size: 25px;
+}
