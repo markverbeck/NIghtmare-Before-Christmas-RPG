@@ -36,3 +36,4 @@ A winning player must pick their characters wisely by first fighting an enemy wi
 Your players should be able to win and lose the game no matter what character they choose. The challenge should come from picking the right enemies, not choosing the strongest player.
 
 Sample app at:
+https://markverbeck.github.io/NIghtmare-Before-Christmas-RPG/
